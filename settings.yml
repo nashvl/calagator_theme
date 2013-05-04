@@ -1,0 +1,23 @@
+# Site's name:
+name: 'nashvl cal'
+
+# Site's tagline:
+tagline: "Nashville's Technology Calendar"
+
+# Site's URL with trailing slash:
+url: 'http://cal.nashvl.org/'
+
+# Default timezone, run "rake -D time" for information on how to display known timezones:
+timezone: 'Central Time (US & Canada)'
+
+# Google map to display on /venues page:
+venues_google_map_options:
+  # Zoom magnification level:
+  zoom: 12
+  # Center of the map, in latitude and longitude:
+  center: [36.166667,-86.783333]
+
+# Array of tag names to exclude from tag cloud:
+tagcloud_exclusions:
+  - ostartupskey
+  - tvg
